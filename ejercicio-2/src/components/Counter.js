@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
 class Counter extends Component {
-    constructor() {
-        super();
-    }
     render() {
         return (
         <div className="wrapper" >
@@ -11,7 +8,7 @@ class Counter extends Component {
         <button onClick= {this.props.SheepCounter}>
             Give me one more sheep! 
         </button>
-        <img src={this.props.img}/>
+        <img src={this.props.img} alt="sheep"/>
         </div>
     );
 }
